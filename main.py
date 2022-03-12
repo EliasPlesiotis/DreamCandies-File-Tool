@@ -12,7 +12,7 @@ class ErrorHandler:
             except Exception as e:
                 self.out.write(f'Error: {e}')
                 self.out.write(f'\nUsage:')
-                self.out.write(f'\n\tArgumemt --sampe: the sample csv')
+                self.out.write(f'\n\tArgumemt --sample: the sample csv')
                 self.out.write(f'\n\tArgumemt --files-location: location of the folder with CUSTOMER.csv, INVOICE.csv, INVOICE_ITEM.csv')
                 self.out.write('\n')
                 self.out.write(f'\nExample: python main.py --sample ./sample.csv --files-location ../db_export')
